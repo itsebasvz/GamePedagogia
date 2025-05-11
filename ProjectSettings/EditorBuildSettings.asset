@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/03.unity
     guid: 5dc7be3e948e81f4a87c9e9da1ee7d94
   - enabled: 1
-    path: "Assets/Scenes/Introducci\xF3n 2.unity"
+    path: Assets/Scenes/Introduccion2.unity
     guid: fee73819b8332e840933b1f7788ea906
   - enabled: 1
     path: Assets/Scenes/Mision1.unity
