@@ -203,7 +203,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 30763050}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 193811661}
+        m_TargetAssemblyTypeName: BotonesMisiones, Assembly-CSharp
+        m_MethodName: IrAMision2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &30763050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,6 +254,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30763047}
   m_CullTransparentMesh: 1
+--- !u!1 &193811660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 193811662}
+  - component: {fileID: 193811661}
+  m_Layer: 0
+  m_Name: BotonesMisiones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &193811661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193811660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6582cb7796995944e93bad5c56582265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &193811662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193811660}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1020.45074, y: 765.2639, z: 0.47251892}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326228934
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +379,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 326228937}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 193811661}
+        m_TargetAssemblyTypeName: BotonesMisiones, Assembly-CSharp
+        m_MethodName: IrAMision1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &326228937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,3 +1155,4 @@ SceneRoots:
   - {fileID: 424276032}
   - {fileID: 503895722}
   - {fileID: 358559897}
+  - {fileID: 193811662}
