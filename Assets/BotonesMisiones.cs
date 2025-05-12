@@ -12,6 +12,11 @@ public class BotonesMisiones : MonoBehaviour
     {
         SceneManager.LoadScene("Mision2"); // Asegúrate que el nombre sea exacto
     }
+
+    public void IrAMision3()
+    {
+        SceneManager.LoadScene("Mision3"); // Asegúrate que el nombre sea exacto
+    }
 }
 
 
