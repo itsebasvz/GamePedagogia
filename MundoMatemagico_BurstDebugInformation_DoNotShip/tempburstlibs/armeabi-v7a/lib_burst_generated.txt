@@ -1,4 +1,4 @@
-Library: D:\PEDAGOGIA\GamePedagogia\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
+Library: C:\Users\amuci\OneDrive\Documentos\GitHub\GamePedagogia\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
 --platform=Android
 --backend=burst-llvm-18
 --target=ARMV7A_NEON32
@@ -8,10 +8,10 @@ Library: D:\PEDAGOGIA\GamePedagogia\Temp\BurstOutput\tempburstlibs\armeabi-v7a\l
 --float-precision=Standard
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=D:\PEDAGOGIA\GamePedagogia\Temp\Burst
---key-folder=D:/UNITY6/2022.3.62f1/Editor/Data/PlaybackEngines/AndroidPlayer
---decode-folder=D:\PEDAGOGIA\GamePedagogia\Library\Burst
---output=D:\PEDAGOGIA\GamePedagogia\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
+--temp-folder=C:\Users\amuci\OneDrive\Documentos\GitHub\GamePedagogia\Temp\Burst
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--decode-folder=C:\Users\amuci\OneDrive\Documentos\GitHub\GamePedagogia\Library\Burst
+--output=C:\Users\amuci\OneDrive\Documentos\GitHub\GamePedagogia\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
