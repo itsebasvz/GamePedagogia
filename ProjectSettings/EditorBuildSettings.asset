@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mision2.unity
     guid: 34705ffb65422154a905b32df3c372dc
+  - enabled: 1
+    path: Assets/Scenes/Mision3.unity
+    guid: a4a5d56aab70b9e4998446d851d2909e
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d589a76554fb8804fb90ccbbac2b8ddd, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: a375f73a1ec43af4bba37154c9215e45, type: 2}
