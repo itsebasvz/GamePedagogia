@@ -22,7 +22,7 @@ public class JuegoComparacion : MonoBehaviour
         // Comparar cantidades
         if (seleccionado.cantidadFrutas > otro.cantidadFrutas)
         {
-            feedbackText.text = "¡Genial! Has terminado por hoy. Estoy muy orgullosa de ti, ¡has\naprendido mucho hoy!";
+            feedbackText.text = "¡Genial! Estoy muy orgulloso de ti. ¡Que la magia de los números te acompañe siempre!";
         }
         else
         {
