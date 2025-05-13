@@ -27,7 +27,7 @@ public class JuegoComparacion : MonoBehaviour
         }
         else
         {
-            feedbackText.text = "Inténtalo otra vez.";
+            feedbackText.text = "Inténtalo otra vez. ¡Tú puedes!";
         }
     }
 
